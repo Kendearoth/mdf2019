@@ -9,7 +9,7 @@ class Executor:
         while i < len(inputs)-1:
             segment = inputs[i:i+2]
             print(segment)
-            #on cherche si ce segment existe dans le reste du traget
+            #on cherche si ce segment existe dans le reste du trajet
             j = i+2
             while j < len(inputs)-1:
                 print('test:'+str(inputs[j:j+2]))
