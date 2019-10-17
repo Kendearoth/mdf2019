@@ -50,3 +50,7 @@ if collision:
     print("COLLISION")
 else:
     print("OK")
+
+def print_ln(s):
+    sys.stderr.write(s)
+    sys.stderr.write("\n")
