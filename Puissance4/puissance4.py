@@ -17,6 +17,9 @@ def invLigneColonne(lines):
             col[j] = str(col[j]) + str(lines[k][j])
     return col
 
+def ints():
+    return list(map(int, input().split()))
+
 J = ['JJJJJJJJ','JJJJJJJ','JJJJJJ','JJJJJ','JJJJ']
 R = ['RRRRRRRR','RRRRRRR','RRRRRR','RRRRR','RRRR']
 
